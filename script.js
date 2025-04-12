@@ -170,3 +170,6 @@ watchLeftControl.addEventListener('click', () => {
     hideControl()
 })
 // End of Section 4
+
+// Set current year in footer
+document.getElementById('current-year').textContent = new Date().getFullYear();
